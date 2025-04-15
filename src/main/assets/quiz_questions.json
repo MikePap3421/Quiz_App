@@ -402,7 +402,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/japan.png",
+        "imageUrl": "japan",
         "answer1": "Japan",
         "answer2": "South Korea",
         "answer3": "Switzerland",
@@ -412,7 +412,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/canada.png",
+        "imageUrl": "canada",
         "answer1": "Canada",
         "answer2": "UK",
         "answer3": "USA",
@@ -422,7 +422,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/ireland.png",
+        "imageUrl": "ireland",
         "answer1": "Ivory Coast",
         "answer2": "Ireland",
         "answer3": "Hungary",
@@ -432,7 +432,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/switzerland.png",
+        "imageUrl": "switzerland",
         "answer1": "Austria",
         "answer2": "Denmark",
         "answer3": "England",
@@ -442,7 +442,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/bhutan.png",
+        "imageUrl": "bhutan",
         "answer1": "Wales",
         "answer2": "Bhutan",
         "answer3": "Myanmar",
@@ -452,7 +452,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/somalia.png",
+        "imageUrl": "somalia",
         "answer1": "Sudan",
         "answer2": "Chad",
         "answer3": "Ethiopia",
@@ -462,7 +462,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/cameroon.png",
+        "imageUrl": "cameroon",
         "answer1": "Senegal",
         "answer2": "Mali",
         "answer3": "Cameroon",
@@ -472,7 +472,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/china.png",
+        "imageUrl": "china",
         "answer1": "Japan",
         "answer2": "North Korea",
         "answer3": "China",
@@ -482,7 +482,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/sweden.png",
+        "imageUrl": "sweden",
         "answer1": "Norway",
         "answer2": "Sweden",
         "answer3": "Finland",
@@ -492,7 +492,7 @@
     {
         "categoryName": "Flags",
         "questionText": "What country does this flag belong to?",
-        "imageUrl": "flags/netherlands.png",
+        "imageUrl": "netherlands",
         "answer1": "France",
         "answer2": "Luxembourg",
         "answer3": "Netherlands",

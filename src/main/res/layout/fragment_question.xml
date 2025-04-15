@@ -9,8 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:gravity="center_horizontal"
+        android:orientation="vertical"
         android:paddingBottom="32dp">
 
         <!-- Question Text -->
@@ -18,91 +18,92 @@
             android:id="@+id/questionTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="What is the capital of France?"
-            android:textSize="26sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white"
             android:layout_marginBottom="24dp"
-            android:textAlignment="center" />
+            android:text="What is the capital of France?"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
 
         <!-- ImageView (Responsive width) -->
+
+        <!-- Answer Options -->
+
+        <!-- Submit Button -->
         <ImageView
             android:id="@+id/question_img"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
             android:layout_marginTop="8dp"
             android:adjustViewBounds="true"
             android:maxHeight="300dp"
             android:scaleType="centerCrop"
             android:src="@drawable/flags" />
 
-        <!-- Answer Options -->
-
-        <!-- Submit Button -->
         <RadioGroup
             android:id="@+id/answersRadioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingHorizontal="16dp"
-            android:layout_marginTop="24dp"
             android:layout_marginBottom="16dp"
             android:divider="@android:color/transparent"
-            android:showDividers="middle"
-            android:dividerPadding="12dp">
+            android:dividerPadding="12dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:showDividers="middle">
 
             <RadioButton
                 android:id="@+id/answer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:buttonTint="@android:color/white"
+                android:gravity="center_vertical"
                 android:minHeight="72dp"
                 android:padding="20dp"
                 android:text="Paris"
-                android:textSize="22sp"
                 android:textColor="@android:color/white"
-                android:buttonTint="@android:color/white"
-                android:background="?attr/selectableItemBackground"
-                android:gravity="center_vertical" />
+                android:textSize="22sp" />
 
             <RadioButton
                 android:id="@+id/answer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:buttonTint="@android:color/white"
+                android:gravity="center_vertical"
                 android:minHeight="72dp"
                 android:padding="20dp"
                 android:text="Rome"
-                android:textSize="22sp"
                 android:textColor="@android:color/white"
-                android:buttonTint="@android:color/white"
-                android:background="?attr/selectableItemBackground"
-                android:gravity="center_vertical" />
+                android:textSize="22sp" />
 
             <RadioButton
                 android:id="@+id/answer3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:buttonTint="@android:color/white"
+                android:gravity="center_vertical"
                 android:minHeight="72dp"
                 android:padding="20dp"
                 android:text="Berlin"
-                android:textSize="22sp"
                 android:textColor="@android:color/white"
-                android:buttonTint="@android:color/white"
-                android:background="?attr/selectableItemBackground"
-                android:gravity="center_vertical" />
+                android:textSize="22sp" />
 
             <RadioButton
                 android:id="@+id/answer4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:buttonTint="@android:color/white"
+                android:gravity="center_vertical"
                 android:minHeight="72dp"
                 android:padding="20dp"
                 android:text="Madrid"
-                android:textSize="22sp"
                 android:textColor="@android:color/white"
-                android:buttonTint="@android:color/white"
-                android:background="?attr/selectableItemBackground"
-                android:gravity="center_vertical" />
+                android:textSize="22sp" />
         </RadioGroup>
 
 
@@ -112,10 +113,10 @@
             android:layout_height="60dp"
             android:layout_marginTop="14dp"
             android:text="Answer"
-            android:textSize="20sp"
             android:textColor="@android:color/white"
-            app:cornerRadius="24dp"
-            app:backgroundTint="#9A40CE" />
+            android:textSize="20sp"
+            app:backgroundTint="#9A40CE"
+            app:cornerRadius="24dp" />
 
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

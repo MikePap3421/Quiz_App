@@ -14,7 +14,7 @@ interface QuestionDao {
     suspend fun insertQuestion(question: QuestionEntity)
 
     @Query("SELECT * FROM questions WHERE categoryName = :categoryName")
-     fun getQuestionsByCategory(categoryName: String): List<QuestionEntity>
+     suspend fun getQuestionsByCategory(categoryName: String): List<QuestionEntity>
 
     @Query("SELECT * FROM questions")
     suspend fun getAllQuestions(): List<QuestionEntity>

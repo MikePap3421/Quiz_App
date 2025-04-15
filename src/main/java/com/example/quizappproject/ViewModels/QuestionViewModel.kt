@@ -14,7 +14,7 @@ class QuestionViewModel(private val repository: QuestionRepository) : ViewModel(
         }
     }
 
-    fun getQuestionsByCategory(category: String): List<QuestionEntity> {
-        return repository.getQuestionsByCategory(category)
+    suspend fun getQuestionsByCategory(category: String): List<QuestionEntity> {
+        return repository.getQuestionsForCategory(category)
     }
 }

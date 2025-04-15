@@ -83,8 +83,8 @@ class MainActivity : AppCompatActivity() {
         val repository = UserRepository(database.userDao())
         userViewModel = ViewModelProvider(this, UserViewModelFactory(repository))
             .get(UserViewModel::class.java)
-       // val db = AppDatabase.getDatabase(this)
-        //insertQuestionsIfFirstTime(this, db)
+        val db = AppDatabase.getDatabase(this)
+        insertQuestionsIfFirstTime(this, db)
 
 
 
@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-    /*fun insertQuestionsIfFirstTime(context: Context, database: AppDatabase) {
+    fun insertQuestionsIfFirstTime(context: Context, database: AppDatabase) {
         val prefs = context.getSharedPreferences("UserPrefs", Context.MODE_PRIVATE)
         val isInserted = prefs.getBoolean("isQuestionsInserted", false)
 
@@ -147,5 +147,5 @@ class MainActivity : AppCompatActivity() {
                 prefs.edit().putBoolean("isQuestionsInserted", true).apply()
             }
         }
-    } */
+    }
 }
